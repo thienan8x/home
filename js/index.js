@@ -1,5 +1,7 @@
 $(document).ready(function() {
   initLetItSnow();
+  var audio = new Audio("merry-christmas.mp3");
+  audio.play()
 });
 
 // Let Christmas begin! \m/
